@@ -9,7 +9,7 @@ export const About = (props) => {
             {id}
         </div>
         <div className='card-body'>
-            <h5 class="card-title">Developed By {name}</h5>
+            <h5 class="card-title">{name}</h5>
             <p class="card-text">{rollNo}</p>
         </div>
     </div>

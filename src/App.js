@@ -25,14 +25,27 @@ function App() {
 
     {/* main */}
     <div className=''>
-      <h1 className='text-center'>PDM University</h1>
+      <h1 className='h1 text-center'>PDM University</h1>
       <h3 className='text-center'>Minor Group Project</h3>
-      <div className='mid'>
+      <h3 className='text-center'>Drawing App</h3>
+      <h3 className='h3 text-center'>Developed By   -</h3>
+      <div className='row m-0'>
+        <div className='col-6'>
         <About id='1' name='Rajat Khatri' rollNo='A40320014' />
+        </div>
+        <div className='col-6'>
         <About id='2' name='Manish Sharma' rollNo='A40320017' />
+        </div>
+        <div className='col-6'>
         <About id='3' name='Vanshul Dahiya' rollNo='A40320026' />
+        </div>
+        <div className='col-6'>
         <About id='4' name='Prashant' rollNo='A40320036' />
+        </div>
+        <div className='col-6'>
         <About id='5' name='Nikhil Chillar' rollNo='A40320042' />
+        </div>
+        
       </div>
     </div>
   </>

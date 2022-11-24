@@ -1,5 +1,7 @@
 body{
-  background-color: aliceblue;
+  background-color: aliceblue;  
+  background-image: url('leaves-pattern.webp');
+
 }
 
 .navbar{
@@ -19,22 +21,38 @@ body{
   margin: auto;
   user-select: none;
   font-weight: 900;
-
+  font-family:'Times New Roman', Times, serif;
 }
 
-.mid{
+/* .mid{
   width: 50%;
   margin-left: 25%;
-}
+} */
 
-h1{
+.h1{
   font-family:'Times New Roman', Times, serif;
   font-size:xx-large;
   font-weight: 900;
+
 }
 
 h3{
   color:teal;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: 500;
+  font-family:monospace;
+  font-weight: 700;
+}
+
+.h3{
+  color:steelblue;
+  font-family:monospace;
+  font-weight: 600;
+  text-decoration: wavy;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .col-6{
+    width: 80%;
+    margin-left: 10%;
+  }
 }
